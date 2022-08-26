@@ -4,8 +4,18 @@ import javax.swing.JOptionPane;
 
 public class ResquisitosProd {
 
+/*-----------------------------------------------------	 *
+ *SENAC - TADS - Programação Orientada a Objetos   	 *
+ *      Autor: YURI MATHAUS -   1142416061       	 *
+ *-----------------------------------------------------	 *
+ *	Objetivo: <<REQUISISTAR PRODUTO>>		 *
+ *                                               	 *
+ *	Descrição:                                     	 *
+ *       <<BUSCA UM PRODUTO E SEU RESPECTIVO PREÇO>>     *
+ *------------------------------------------------------ */
+
 	public static void main(String[] args) {
-		String [] codProduto = {"p1","p2","p3","p4","p5","p6","p7","p8","p9","p10"};
+		String[] codProduto = {"p1","p2","p3","p4","p5","p6","p7","p8","p9","p10"};
 		float[] preco = {10,20,30,40,50,60,70,80,90};
 		String codigo = JOptionPane.showInputDialog("Digite o Código do produto: ");
 		
